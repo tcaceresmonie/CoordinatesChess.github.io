@@ -1,0 +1,64 @@
+body{background-color: red;}
+
+.gradient{background: linear-gradient(to top, rgb(137, 97, 170), #202020);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    align-items: center;
+}
+
+.black{
+    background-color: rgb(137, 97, 170);
+    height: 40px;
+
+}
+.white{
+    background-color: rgb(223, 222, 222);
+    height: 40px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+h1{
+    color:white;
+    font-family: "Play", sans-serif;
+}
+
+
+h2{
+    color:white;
+    font-family: "Play", sans-serif;
+}
+
+
+h1>span{
+    color:rgb(137, 97, 170);
+}
+
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
